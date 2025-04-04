@@ -1,0 +1,12 @@
+date: 2025-04-01  
+time: 08:58  
+
+- A function with two arguments is harder to understand than a monadic function.
+- For example, writeField(name) is easier to understand than writeField(output-Stream, name).
+- There are times, of course, where two arguments are appropriate.
+- For example,Point p = new Point(0,0); is perfectly reasonable. Cartesian points naturally take two arguments. Indeed, we’d be very surprised to see new Point(0)
+
+Day 1 : done *2025-04-01*  
+Day 3 : pending *2025-04-04*  
+Day 7 : pending *2025-04-08*  
+Day 21: pending *2025-04-22*

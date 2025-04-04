@@ -1,0 +1,10 @@
+date: 2025-04-01  
+time: 08:56  
+
+- Flag arguments are ugly. Passing a boolean into a function is a truly terrible practice
+  
+
+Day 1 :  done *2025-04-01*  
+Day 3 : done *2025-04-04*  
+Day 7 : pending *2025-04-08*  
+Day 21: pending *2025-04-22*

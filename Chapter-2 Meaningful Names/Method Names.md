@@ -1,0 +1,23 @@
+date: 2025-03-06
+time: 08:46
+
+- Method should have verb or verb phrase.
+- `Verb :- They are actions words that describe what someone or something does for example 'run', 'eat' and 'sleep' are verbs.`
+- For e.g -> postPayment, deletePage or save.
+- Accessors, mutators and predicates should be named for their value and prefixed with get, set and is according to the java bean standard
+- We do not need to overload the constructors instead make the constructor private and use the static factory method.
+- For e.g ObjectMapperUtils class will have private constructor and we are using there method which are static.
+- There are many type of the class pojo, data structure(record), utils, etc 
+- In pojo we define the variables as private and we make the action method that can be static or not static 
+- In data structure we make the variables public and method also public
+- In utils we do not make the object of the class all the method are by default static.
+
+1. [[Don't Be Cute]]
+2. [[Pick One Word per Concept]]
+3. [[Don't Pun(Double meaning)]]
+
+
+Day 1 : done *2025-03-06*
+Day 3: done *2025-03-09*
+Day 7: done *2025-03-13*
+Day 21: done *2025-03-27*

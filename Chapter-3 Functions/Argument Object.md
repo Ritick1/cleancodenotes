@@ -1,0 +1,19 @@
+date: 2025-04-02  
+time: 08:18  
+
+  - When a function seems to need more than two or three arguments, it is likely that some of those arguments ought to be wrapped into a class of their own.
+    
+- Consider, for example, the difference between the two following declarations:
+    
+    - `Circle makeCircle(double x, double y, double radius);`
+        
+    - `Circle makeCircle(Point center, double radius);`
+        
+- Reducing the number of arguments by creating objects out of them may seem like cheating, but it’s not.
+    
+- When groups of variables are passed together, the way `x` and `y` are in the example above, they are likely part of a concept that deserves a name of its own.
+
+Day 1 : done *2025-04-02*  
+Day 3 : pending *2025-04-05*  
+Day 7 : pending *2025-04-09*  
+Day 21: pending *2025-04-23*

@@ -1,0 +1,19 @@
+date: 2025-03-02
+time: 16:57
+
+
+- It is unnecessary extra burden of brain to decoding the encoded names.
+- Everyone need to learn the encoding language to make changes in the code which makes it harder and time consuming.
+- It can easily mis-type or difficult to pronounceable.
+
+1. [[Hungarian Notation]]
+2. [[Member Prefixes]]
+3. [[Interfaces and Implementation]]
+4. [[Avoid Mental Mapping]]
+5. [[Class Names]]
+
+
+Day 1 : done *2025-03-02*
+Day 3: done *2025-03-05*
+Day 7: done *2025-03-09*
+Day 21: done *2025-03-23*

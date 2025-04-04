@@ -1,0 +1,16 @@
+date: 2025-03-30  
+time: 23:00  
+
+- We use the monadic forms to ask a question regarding argument or transforming the argument into another form or for a event.
+
+```java
+1. boolean fileExists("MyFile"); // asking the question
+2. InputStream fileOpen("MyFile"); // transforming the argument 
+3. void passowrdAttemptFailedNTimes(int attempts); // event
+```
+  
+
+Day 1 : done *2025-03-30*  
+Day 3 : done *2025-04-02*  
+Day 7 : pending *2025-04-06*  
+Day 21: pending *2025-04-20*

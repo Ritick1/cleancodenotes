@@ -1,0 +1,53 @@
+
+date: 2025-04-02  
+time: 09:04  
+
+- **Writing software is like writing anything else** → You first **get your thoughts down**, then **refine** them.
+    
+- The **first draft** is often **clumsy and disorganized**, so you **wordsmith, restructure, and refine** it until it **reads well**.
+    
+
+### **Initial Code:**
+
+- Functions start out **long and complicated**.
+    
+- They may have:
+    
+    - **Deep indentation** and **nested loops**
+        
+    - **Long argument lists**
+        
+    - **Arbitrary names**
+        
+    - **Duplicated code**
+        
+- But a **suite of unit tests** ensures that every **clumsy line of code** is covered.
+    
+
+### **Refinement Process:**
+
+- The code is **massaged and refined** by:
+    
+    - **Splitting out functions**
+        
+    - **Changing names** for clarity
+        
+    - **Eliminating duplication**
+        
+    - **Shrinking methods** and **reordering them**
+        
+    - **Breaking out whole classes** if necessary
+        
+- All of this is done **while keeping the tests passing**.
+    
+
+### **Final Result:**
+
+- The functions eventually follow **all the good practices** discussed in this chapter.
+    
+- **Nobody writes perfect code on the first attempt** → It is always a process of **iteration and refinement**.
+
+Day 1 : done *2025-04-02*  
+Day 3 : pending *2025-04-05*  
+Day 7 : pending *2025-04-09*  
+Day 21: pending *2025-04-23*

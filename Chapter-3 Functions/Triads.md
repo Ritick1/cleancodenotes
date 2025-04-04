@@ -1,0 +1,12 @@
+date: 2025-04-01  
+time: 09:00  
+
+- Functions that take three arguments are significantly harder to understand than dyads. The issues of ordering, pausing, and ignoring are more than doubled. I suggest you think
+  very carefully before creating a triad.
+- For example, consider the common overload of assertEquals that takes three arguments: assertEquals(message, expected, actual). How many times have you read the message and thought it was the expected? I have stumbled and paused over that particular triad many times. In fact, _every time I see it,_ I do a double-take and then learn to ignore the message.
+  
+
+Day 1 : done *2025-04-01*  
+Day 3 : pending *2025-04-04*  
+Day 7 : pending *2025-04-08*  
+Day 21: pending *2025-04-22*

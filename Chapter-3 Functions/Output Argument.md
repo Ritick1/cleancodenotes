@@ -1,0 +1,44 @@
+date: 2025-04-02  
+time: 08:34  
+
+- Arguments are most naturally interpreted as **inputs** to a function.
+    
+- If you have been programming for more than a few years, you’ve likely encountered an argument that was actually an **output** rather than an input.
+    
+- For example:
+    
+    - `appendFooter(s);`
+        
+    - Does this function **append `s` as the footer** to something?
+        
+    - Or does it **append some footer to `s`**?
+        
+    - Is `s` an **input** or an **output**?
+        
+- Checking the function signature clarifies the issue:
+    
+    ```java
+    public void appendFooter(StringBuffer report)
+    ```
+    
+- This helps, but only at the expense of **checking the declaration** of the function.
+    
+- Anything that forces you to check the function signature is equivalent to a **double-take**.
+    
+- It’s a **cognitive break** and should be **avoided**.
+	
+- In other words, it would be better for `appendFooter` to be invoked as:
+    
+    - `report.appendFooter();`
+        
+- In general, **output arguments should be avoided**.
+    
+- If your function must **change the state** of something,
+    
+    - Have it **change the state of its owning object** instead.
+
+
+Day 1 : done *2025-04-02*  
+Day 3 : pending *2025-04-05*  
+Day 7 : pending *2025-04-09*  
+Day 21: pending *2025-04-23*

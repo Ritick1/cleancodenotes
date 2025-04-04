@@ -1,0 +1,19 @@
+date: 2025-04-02  
+time: 08:52  
+
+- Functions should do one thing.
+    
+- Error handling is one thing.
+    
+- Thus, a function that handles errors should do nothing else.
+    
+- This implies (as in the example above) that if the keyword `try` exists in a function,
+    
+    - It should be the **very first word** in the function.
+        
+    - There should be **nothing after** the `catch/finally` blocks.
+
+Day 1 : done *2025-04-02*  
+Day 3 : pending *2025-04-05*  
+Day 7 : pending *2025-04-09*  
+Day 21: pending *2025-04-23*

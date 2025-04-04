@@ -1,0 +1,10 @@
+date: 2025-03-23  
+time: 17:43  
+
+We want each function to be followed by other functions that are either more detailed or more general, to make the program easier to understand
+  
+
+Day 1 : done *2025-03-23*  
+Day 3 : done *2025-03-26*  
+Day 7 : done *2025-03-30*  
+Day 21: pending *2025-04-13*

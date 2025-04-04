@@ -1,0 +1,77 @@
+date: 2025-03-23  
+time: 17:01  
+
+  - In order to make sure our function doing "one thing," we need to make sure that the statements within our function are all at the same level of abstraction.
+  - Like there are multiple level of abstraction  there high level , intermediate level and low level
+  - For example 
+  ```java
+  //Mixed Level of Abstraction
+  public void processOrder() {
+    // High-level: Fetch order data
+    Order order = fetchOrder();
+
+    // Low-level: Calculating total price
+    double totalPrice = 0;
+    for (Item item : order.getItems()) {
+        totalPrice += item.getPrice() * item.getQuantity();
+    }
+
+    // Intermediate-level: Generating receipt
+    String receipt = "Order ID: " + order.getId() + "\nTotal: $" + totalPrice;
+
+    // High-level: Save receipt
+    saveReceipt(receipt);
+}
+```
+
+```java
+//Organized Abstraction Levels
+public void processOrder() {
+    Order order = fetchOrder();                     // High-level
+    double total = calculateTotal(order);           // High-level (delegates calculation)
+    String receipt = generateReceipt(order, total); // High-level (delegates formatting)
+    saveReceipt(receipt);                           // High-level
+}
+
+// Intermediate: Calculates total price
+private double calculateTotal(Order order) {
+    double total = 0;
+    for (Item item : order.getItems()) {
+        total += item.getPrice() * item.getQuantity();
+    }
+    return total;
+}
+
+// Intermediate: Generates receipt
+private String generateReceipt(Order order, double total) {
+    return "Order ID: " + order.getId() + "\nTotal: $" + total;
+}
+```
+
+
+**🚀 Final Structure of Abstraction Levels**
+
+| **Level**        | **Functions**                               |
+| ---------------- | ------------------------------------------- |
+| **High-level**   | processOrder(), fetchOrder(), saveReceipt() |
+| **Intermediate** | calculateTotal(), generateReceipt()         |
+| **Low-level**    | getItemTotal()                              |
+
+---
+
+**🔍 Key Takeaways**
+
+• **High-level functions** should only **orchestrate tasks** (calling other functions).
+
+• **Intermediate-level functions** should handle **specific processes** but avoid raw details.
+
+• **Low-level functions** should deal with **fine details** (like a single calculation).
+
+  
+This makes code **clean, easy to read, and maintainable**! 🎯🚀
+
+
+Day 1 : done *2025-03-23*  
+Day 3 : done *2025-03-26*  
+Day 7 : done *2025-03-30*  
+Day 21: pending *2025-04-13*

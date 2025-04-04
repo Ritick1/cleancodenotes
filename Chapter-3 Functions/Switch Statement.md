@@ -1,0 +1,38 @@
+date: 2025-03-23  
+time: 17:45  
+
+- The problem of switch statement is that it always do N things and also we cannot avoid  same switch statement to be used on several places 
+- The solution  to this problem is to bury the switch statement in the basement of the ABSTRACT FACTORY and never let anyone see it.
+
+```java
+public abstract class Student {
+	public abstract boolean isFeesDay();
+	public abstract Money calculateFees();
+}
+
+```
+
+```java
+public interface StudentFactory {
+	public Student makeStudent(StudentRecord r) throws InvalidStudentType;
+}
+```
+
+```java
+public class StudentFactoryImpl implements StudentFactory {
+	public Student makeStudent(StudentRecord r) throws InvalidStudentType {
+		switch (r.grade) {
+			case TWELVETH;
+				return new TwelvethStuent(r);
+			case TENTH;
+				return new TenthStudent(r);
+			default:
+			 throw new InvalidStudentType(r.type)
+		}
+	}
+}
+```
+Day 1 : done *2025-03-23*  
+Day 3 : done *2025-03-26*  
+Day 7 : done *2025-03-30*  
+Day 21: pending *2025-04-13*

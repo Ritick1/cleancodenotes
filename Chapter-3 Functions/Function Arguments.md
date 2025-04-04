@@ -1,0 +1,51 @@
+date: 2025-03-30  
+time: 22:28  
+
+- The ideal number of arguments for a function is zero(niladic). Next comes one(monadic), followed closely by two(dyadic). Three arguments (triadic) should be avoided where possible.
+- More than three (polyadic) requires very special justification--and then shouldn't be used anyway.
+- Argument are hard. They take a lot of conceptual power.That's why I got rid of almost all of them from the example.
+- For example
+```java
+//using argument
+public class Java {
+	public static void main(String arr[]){
+		StringBuffer countryCodeWithPhoneNumber = "";
+		concatPhoneNumberWithCountryCode(countryCodeWithPhoneNumber);
+		System.out.println(countryCodeWithPhoneNumber);
+	}
+
+	public StringBuffer concatPhoneNumberWithCountryCode(StringBuffer countryCodeWithPhoneNumber){
+	StringBuffer countryCode = "+91";
+	StringBuffer phoneNumber = "9464828221";
+	
+	 countryCodeWithPhoneNumber.concat(countryCode.concat(phoneNumber));
+	return countryCodeWithPhoneNumber
+	}
+}
+```
+
+```java
+//without argument
+public class Java1 {  
+  
+    private static final StringBuilder countryCodeWithPhoneNumber = new StringBuilder();  
+  
+    public static void main(String arr[]){  
+        concatPhoneNumberWithCountryCode();  
+        System.out.println(countryCodeWithPhoneNumber);  
+    }  
+  
+    public static void concatPhoneNumberWithCountryCode(){  
+        StringBuilder countryCode = new StringBuilder("+91");  
+  
+        countryCodeWithPhoneNumber.append(countryCode.append("9464828221"));  
+    }  
+}
+```
+
+- Don't use the output as an argument of the function because it  take a lot of conceptual power. but in many case it can be used like we are using it while updating the entity class where we are passing the request and (entity to update) in function argument which is our output argument.
+
+Day 1 : done *2025-03-30*  
+Day 3 : done *2025-04-02*  
+Day 7 : pending *2025-04-06*  
+Day 21: pending *2025-04-20*

@@ -1,0 +1,43 @@
+
+date: 2025-04-02  
+time: 09:04  
+
+- **Every system** is built from a **domain-specific language (DSL)** designed by programmers **to describe that system**.
+    
+- **Functions** act as the **verbs** of that language, while **classes** serve as the **nouns**.
+    
+
+### **Not an Outdated Approach**
+
+- This is **not** about the old idea that **nouns and verbs in a requirements document** should directly define **classes and functions**.
+    
+- Instead, it reflects a **deeper truth**:
+    
+    - **Programming has always been the art of language design.**
+        
+
+### **How Master Programmers Think**
+
+- They **view systems as stories** to be **told**, rather than just **programs to be written**.
+    
+- They use their **programming language’s features** to construct a **rich and expressive DSL** that tells that story.
+    
+- This DSL includes:
+    
+    - A **hierarchy of functions** that describe system actions.
+        
+    - Functions that recursively **use the DSL itself** to express their part of the story.
+        
+
+### **The True Goal of Writing Functions**
+
+- This chapter covered the **mechanics of writing good functions** (short, well-named, and organised).
+    
+- But the **real goal** is to **tell the story of the system**.
+    
+- Your functions should **fit together cleanly** to form a **clear and precise language** that helps convey that story.
+
+Day 1 : done *2025-04-02*  
+Day 3 : pending *2025-04-05*  
+Day 7 : pending *2025-04-09*  
+Day 21: pending *2025-04-23*
